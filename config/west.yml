@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/GPeye           # slideshow
     - name: mctechnology17
       url-base: https://github.com/mctechnology17  # gem with dog
-    - name: mkhzmc
-      url-base: https://github.com/mkhzmc          # bongo cat
+    - name: MrBanh
+      url-base: https://github.com/MrBanh          # bongo cat
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -24,8 +24,8 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main  
-    - name: nice-view-bongocat
-      remote: mkhzmc
+    - name: nice-view-bongo-cat
+      remote: MrBanh
       revision: main
   self:
     path: config
