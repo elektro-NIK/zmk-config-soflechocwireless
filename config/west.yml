@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/GPeye           # slideshow
     - name: mctechnology17
       url-base: https://github.com/mctechnology17  # gem with dog
-    - name: MrBanh
-      url-base: https://github.com/MrBanh          # bongo cat
+    - name: dsifry
+      url-base: https://github.com/dsifry          # bongo cat
     - name: gpeye
       url-base: https://github.com/GPeye           # mario
     - name: whoop-t
@@ -28,8 +28,8 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main  
-    - name: nice-view-bongo-cat
-      remote: MrBanh
+    - name: nice-view-mod
+      remote: dsifry
       revision: main
     - name: mario-peripheral-animation
       remote: gpeye
