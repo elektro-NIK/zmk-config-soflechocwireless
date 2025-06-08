@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/mctechnology17  # gem with dog
     - name: MrBanh
       url-base: https://github.com/MrBanh          # bongo cat
+    - name: gpeye
+      url-base: https://github.com/GPeye           # mario
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -26,6 +28,9 @@ manifest:
       revision: main  
     - name: nice-view-bongo-cat
       remote: MrBanh
+      revision: main
+    - name: mario-peripheral-animation
+      remote: gpeye
       revision: main
   self:
     path: config
