@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/MrBanh          # bongo cat
     - name: gpeye
       url-base: https://github.com/GPeye           # mario
+    - name: whoop-t
+      url-base: https://github.com/whoop-t         # one punch
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -31,6 +33,9 @@ manifest:
       revision: main
     - name: mario-peripheral-animation
       remote: gpeye
+      revision: main
+    - name: nice-one-punch-ok
+      remote: whoop-t
       revision: main
   self:
     path: config
