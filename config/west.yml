@@ -8,12 +8,12 @@ manifest:
 #      url-base: https://github.com/GPeye           # slideshow
 #    - name: mctechnology17
 #      url-base: https://github.com/mctechnology17  # gem with dog
-#    - name: dsifry
-#      url-base: https://github.com/dsifry          # bongo cat
+    - name: dsifry
+      url-base: https://github.com/dsifry          # bongo cat
 #    - name: gpeye
 #      url-base: https://github.com/GPeye           # mario
-    - name: whoop-t
-      url-base: https://github.com/whoop-t         # one punch
+#    - name: whoop-t
+#      url-base: https://github.com/whoop-t         # one punch
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -28,14 +28,14 @@ manifest:
 #    - name: zmk-nice-oled
 #      remote: mctechnology17
 #      revision: main  
-#    - name: nice-view-mod
-#      remote: dsifry
-#      revision: main
+    - name: nice-view-mod
+      remote: dsifry
+      revision: main
 #    - name: mario-peripheral-animation
 #      remote: gpeye
 #      revision: main
-    - name: nice-one-punch-ok
-      remote: whoop-t
-      revision: main
+#    - name: nice-one-punch-ok
+#      remote: whoop-t
+#      revision: main
   self:
     path: config
