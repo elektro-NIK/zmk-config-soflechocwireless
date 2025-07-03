@@ -17,6 +17,11 @@
     cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
 }; 
 
+// Fix encoder event generation
+&left_encoder {
+    resolution = <1>;
+};
+
 
 #define BASE 0
 #define LOWER 1

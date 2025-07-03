@@ -1,5 +1,0 @@
-#include "sofle.dtsi"
-
-&left_encoder {
-    resolution = <1>;
-};
