@@ -20,6 +20,7 @@
 // Fix encoder event generation
 &left_encoder {
     resolution = <1>;
+    steps = <16>;
 };
 
 
