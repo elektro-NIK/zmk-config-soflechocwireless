@@ -39,7 +39,7 @@ manifest:
 #    - name: nice-one-punch-ok
 #      remote: whoop-t
 #      revision: main
-    - name: nice-view-gif
+    - name: nice-view-gifs
       remote: danielsodium
       revision: main  # main / bongo-cat / catgirl / kita / mai / sister / totoro
   self:
