@@ -14,6 +14,8 @@ manifest:
 #      url-base: https://github.com/GPeye           # mario
 #    - name: whoop-t
 #      url-base: https://github.com/whoop-t         # one punch
+    - name: danielsodium
+      url-base: https://github.com/danielsodium    # animations
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -37,5 +39,8 @@ manifest:
 #    - name: nice-one-punch-ok
 #      remote: whoop-t
 #      revision: main
+    - name: nice-view-gif
+      remote: danielsodium
+      revision: main  # main / bongo-cat / catgirl / kita / mai / sister / totoro
   self:
     path: config
