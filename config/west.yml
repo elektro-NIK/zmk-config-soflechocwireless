@@ -41,6 +41,6 @@ manifest:
 #      revision: main
     - name: nice-view-gifs
       remote: danielsodium
-      revision: bongo-cat  # main / bongo-cat / catgirl / kita / mai / sister / totoro
+      revision: catgirl  # main / bongo-cat / catgirl / kita / mai / sister / totoro
   self:
     path: config
