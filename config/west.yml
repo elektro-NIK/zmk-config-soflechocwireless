@@ -5,17 +5,16 @@ manifest:
     - name: m165437
       url-base: https://github.com/M165437         # gem
 #    - name: gpeye
-#      url-base: https://github.com/GPeye           # slideshow
+#      url-base: https://github.com/GPeye           # slideshow / mario
 #    - name: mctechnology17
 #      url-base: https://github.com/mctechnology17  # gem with dog
     - name: dsifry
       url-base: https://github.com/dsifry          # bongo cat
-#    - name: gpeye
-#      url-base: https://github.com/GPeye           # mario
 #    - name: whoop-t
 #      url-base: https://github.com/whoop-t         # one punch
 #    - name: danielsodium
 #      url-base: https://github.com/danielsodium    # animations
+
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -27,20 +26,21 @@ manifest:
 #    - name: hammerbeam-slideshow
 #      remote: gpeye
 #      revision: main
+#    - name: mario-peripheral-animation
+#      remote: gpeye
+#      revision: main
 #    - name: zmk-nice-oled
 #      remote: mctechnology17
 #      revision: main  
     - name: nice-view-mod
       remote: dsifry
       revision: main
-#    - name: mario-peripheral-animation
-#      remote: gpeye
-#      revision: main
 #    - name: nice-one-punch-ok
 #      remote: whoop-t
 #      revision: main
 #    - name: nice-view-gifs
 #      remote: danielsodium
 #      revision: totoro  # main / bongo-cat / catgirl / kita / mai / sister / totoro
+
   self:
     path: config
