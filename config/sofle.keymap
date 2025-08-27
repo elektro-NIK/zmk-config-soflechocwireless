@@ -79,11 +79,11 @@
             bindings = <&bt BT_CLR>, <&bootloader>;
         };
 
-        blbr: backlight_brightness {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "Backlight brightness";
-            #sensor-binding-cells = <0>;
-            bindings = <&bl BL_INC>, <&bl BL_DEC>;
+        blr: backlight_rotate {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "Backlight rotate";
+            #sensor-binding-cells = <2>;
+            bindings = <&bl>, <&bl>;
         };
     };
 
@@ -351,7 +351,9 @@
                                   &trans           &trans           &trans           &tog 1           &trans    &trans  &tog 1      &trans         &trans       &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&blbr>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&blr BL_INC BL_DEC>;
         };
     };
 };
