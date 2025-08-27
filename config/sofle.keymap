@@ -192,6 +192,66 @@
             key-positions = <34 22>;
             layers = <0>;
         };
+
+        combo_EQUAL {
+            bindings = <&kp EQUAL>;
+            key-positions = <25 37>;
+            layers = <0>;
+        };
+
+        combo_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <26 38>;
+            layers = <0>;
+        };
+
+        combo_PLUS {
+            bindings = <&kp PLUS>;
+            key-positions = <27 39>;
+            layers = <0>;
+        };
+
+        combo_BSLH {
+            bindings = <&kp BSLH>;
+            key-positions = <28 40>;
+            layers = <0>;
+        };
+
+        combo_TILDE {
+            bindings = <&kp TILDE>;
+            key-positions = <29 41>;
+            layers = <0>;
+        };
+
+        combo_UNDER {
+            bindings = <&kp UNDER>;
+            key-positions = <30 44>;
+            layers = <0>;
+        };
+
+        combo_PIPE {
+            bindings = <&kp PIPE>;
+            key-positions = <45 31>;
+            layers = <0>;
+        };
+
+        combo_SLASH {
+            bindings = <&kp SLASH>;
+            key-positions = <32 46>;
+            layers = <0>;
+        };
+
+        combo_LT {
+            bindings = <&kp LT>;
+            key-positions = <33 47>;
+            layers = <0>;
+        };
+
+        combo_GT {
+            bindings = <&kp GT>;
+            key-positions = <34 48>;
+            layers = <0>;
+        };
     };
 
     keymap {
