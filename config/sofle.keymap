@@ -56,6 +56,20 @@
             release-after-ms = <1000>;
             quick-release;
         };
+
+        tdls: tap_dance_left_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LShift / Capsword";
+            #binding-cells = <0>;
+            bindings = <&skq LSHIFT>, <&caps_word>;
+        };
+
+        tdrs: tap_dance_right_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "RShift / Capsword";
+            #binding-cells = <0>;
+            bindings = <&skq RSHIFT>, <&caps_word>;
+        };
     };
 
     combos {
@@ -302,11 +316,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE   &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                               &kp N6      &kp N7     &kp N8     &kp N9    &kp N0    &none
-&kp ESC     &kp Q   &kp W     &kp E     &kp R      &kp T                                &kp Y       &kp U      &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB     &kp A   &kp S     &kp D     &kp F      &kp G                                &kp H       &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&skq LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B       &kp C_MUTE    &none      &kp N       &kp M      &kp COMMA  &kp DOT   &kp FSLH  &skq RSHFT
-                    &kp LGUI  &kp LALT  &kp LCTRL  &slq LOWER  &kp SPACE     &kp ENTER  &slq RAISE  &kp RCTRL  &kp RALT   &kp RGUI
+&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                               &kp N6      &kp N7     &kp N8     &kp N9    &kp N0    &none
+&kp ESC    &kp Q   &kp W     &kp E     &kp R      &kp T                                &kp Y       &kp U      &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A   &kp S     &kp D     &kp F      &kp G                                &kp H       &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&tdls      &kp Z   &kp X     &kp C     &kp V      &kp B       &kp C_MUTE    &none      &kp N       &kp M      &kp COMMA  &kp DOT   &kp FSLH  &tdrs
+                   &kp LGUI  &kp LALT  &kp LCTRL  &slq LOWER  &kp SPACE     &kp ENTER  &slq RAISE  &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
