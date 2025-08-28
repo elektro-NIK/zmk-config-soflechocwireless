@@ -353,7 +353,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&blr BL_INC BL_DEC>;
+                <&inc_dec_kp PG_DN PG_UP>;
         };
     };
 };
