@@ -1,66 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  Base:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - ESC
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - TAB
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - '&tdls'
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - MUTE
-  - '&bl BL_TOG'
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - '&tdrs'
-  - LGUI
-  - LALT
-  - LCTRL
-  - {t: Adjust, h: sticky}
-  - SPACE
-  - ENTER
-  - {t: Adjust, h: sticky}
-  - RCTRL
-  - RALT
-  - RGUI
+  Base: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', '&tdls', Z,
+    X, C, V, B, MUTE, '&bl BL_TOG', N, M, ',', ., /, '&tdrs', LGUI, LALT, LCTRL, Adjust, SPACE, ENTER, Adjust, RCTRL, RALT, RGUI]
   Adjust:
   - '&tdlb'
   - {t: BT, h: '0'}
@@ -115,10 +56,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Adjust, h: toggle, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Adjust, h: toggle}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
