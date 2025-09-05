@@ -272,54 +272,108 @@
 
         combo_LT {
             bindings = <&kp LT>;
-            key-positions = <33 47>;
+            key-positions = <28 29>;
             layers = <0>;
         };
 
         combo_GT {
             bindings = <&kp GT>;
-            key-positions = <34 48>;
+            key-positions = <30 31>;
             layers = <0>;
         };
 
         combo_LPAR2 {
             bindings = <&kp LPAR>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
             layers = <0>;
         };
 
         combo_RPAR2 {
             bindings = <&kp RPAR>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
             layers = <0>;
         };
 
         combo_LBRC {
             bindings = <&kp LBRC>;
-            key-positions = <16 17>;
+            key-positions = <26 27>;
             layers = <0>;
         };
 
         combo_RBRC {
             bindings = <&kp RBRC>;
-            key-positions = <18 19>;
+            key-positions = <32 33>;
             layers = <0>;
         };
 
         combo_LBKT {
             bindings = <&kp LBKT>;
-            key-positions = <40 41>;
+            key-positions = <25 26>;
             layers = <0>;
         };
 
         combo_RBKT {
             bindings = <&kp RBKT>;
-            key-positions = <44 45>;
+            key-positions = <34 33>;
             layers = <0>;
         };
 
-        combo_DEL {
-            bindings = <&kp DEL>;
+        combo_1 {
+            bindings = <&kp N1>;
+            key-positions = <12 13>;
+            layers = <0>;
+        };
+
+        combo_2 {
+            bindings = <&kp N2>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        combo_3 {
+            bindings = <&kp N3>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
+
+        combo_4 {
+            bindings = <&kp N4>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        combo_5 {
+            bindings = <&kp N5>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        combo_6 {
+            bindings = <&kp N6>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        combo_7 {
+            bindings = <&kp N7>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        combo_8 {
+            bindings = <&kp N8>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        combo_9 {
+            bindings = <&kp N9>;
+            key-positions = <21 22>;
+            layers = <0>;
+        };
+
+        combo_0 {
+            bindings = <&kp N0>;
             key-positions = <22 23>;
             layers = <0>;
         };
@@ -345,7 +399,7 @@
             display-name = "Adjust";
             bindings = <
 &tdlb            &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &none       &none          &none        &none       &none  &tdrb
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                    &none       &kp PAGE_DOWN  &kp PAGE_UP  &none       &none  &none
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                    &none       &kp PAGE_DOWN  &kp PAGE_UP  &none       &none  &kp DEL
 &none            &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &none                              &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT   &none  &none
 &none            &none            &none            &none            &none            &none            &trans    &trans  &kp K_PREV  &kp K_PP       &none        &kp K_NEXT  &none  &none
                                   &trans           &trans           &trans           &none            &trans    &trans  &none       &trans         &trans       &trans
